@@ -5,7 +5,3 @@ A collection of competitive programming algorithm templates in C++. Each file is
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add new algorithms and tests.
-
-## Author
-
-**Priyansh Agarwal** — [YouTube Channel](https://www.youtube.com/c/PriyanshAgarwal)
