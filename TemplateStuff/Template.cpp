@@ -77,7 +77,7 @@ void solve() {
 
 }
 int main() {
-#ifdef Priyansh31dec
+#ifdef Romy0xdec
     freopen("Error.txt", "w", stderr);
 #endif
     fastio();
@@ -85,7 +85,7 @@ int main() {
     solve();
     auto stop1 = high_resolution_clock::now();
     auto duration = duration_cast<microseconds>(stop1 - start1);
-#ifdef Priyansh31dec
+#ifdef Romy0xdec
     cerr << "Time: " << duration . count() / 1000 << endl;
 #endif
 }
