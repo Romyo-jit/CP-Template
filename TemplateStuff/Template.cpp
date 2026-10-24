@@ -82,7 +82,11 @@ int main() {
 #endif
     fastio();
     auto start1 = high_resolution_clock::now();
-    solve();
+    int t = 1;
+    cin >> t; // comment out when theres 1 testcase
+    while(t--){
+        solve();
+    }
     auto stop1 = high_resolution_clock::now();
     auto duration = duration_cast<microseconds>(stop1 - start1);
 #ifdef Romy0xdec
